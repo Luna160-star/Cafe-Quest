@@ -19,6 +19,7 @@ button{
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: 0.3s ease;
     font-size: 25px;
+    background-color: beige;
 
 }
 
@@ -28,7 +29,10 @@ button:hover{
 
 }
 
+
 .button1{
     padding-left: 565px;
     padding-top: 427px;
 }
+
+
