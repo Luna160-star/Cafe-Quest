@@ -1,7 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("cafepic.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.background{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
 }
