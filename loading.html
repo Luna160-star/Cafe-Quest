@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loading</title>
+    <link rel="stylesheet" href="loading.css">
+    <script src="loading.js" defer> </script>
 </head>
 <body bgcolor="pink">
+
+    <img src="leafff.gif" width="200px" height="200px" alt="loading" class="img1">
+    Loading
+
+    <div class="loading-bar" style="--width: 10" data-label="loading.." >
+
+    </div>
+
+    <!---just a small comment to separate my codes -->
     <script>
         setTimeout(function() {
             window.location.href= "page1.html";
-        }, 2500);
+        }, 5000);
     </script>
 
 </body>
