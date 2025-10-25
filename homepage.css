@@ -12,3 +12,23 @@ body{
     object-fit: cover;
     z-index: -1;
 }
+
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+    font-size: 25px;
+
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: rgba(152, 119, 84, 0.793);
+
+}
+
+.button1{
+    padding-left: 565px;
+    padding-top: 427px;
+}
