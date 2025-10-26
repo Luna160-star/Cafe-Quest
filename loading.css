@@ -35,3 +35,8 @@ body{
     z-index: 1;
 
 }
+
+.img{
+  display: grid;
+  grid-auto-flow: column;
+}
