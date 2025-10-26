@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.background{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.button1{
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+    font-size: 25px;
+}
+
+.button1:hover{
+    transform: scale(1.2);
+    background: brown;
+    cursor: ("cursorr.png") 0 0, auto;
+}
