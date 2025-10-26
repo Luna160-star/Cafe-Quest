@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 
@@ -11,6 +12,8 @@ body{
     border-radius: 1.5em;
     color: white;
     position: relative;
+    align-items: center;
+    justify-content: center;;
 }
 
 
@@ -31,12 +34,32 @@ body{
     box-sizing: border-box;
 }
 
-.img{
+.img1{
     z-index: 1;
+    display: block;
+    margin: 0;
 
 }
 
 .img{
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.page-align1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+
+}
+
+.page-align2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
 }
