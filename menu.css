@@ -32,3 +32,10 @@ figcaption{
     vertical-align: middle;
     display: inline-flex;
 }
+
+.CAKES{
+    align-items: center;
+    gap: 0px;
+    vertical-align: center;
+    display: inline-flex;
+}
