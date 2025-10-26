@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(232, 131, 95);
+}
+
+.FOOD{
+    align-items: center;
+    gap: 15px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+marquee{
+    behavior: scroll;
+    direction: left;
+    
+}
+
+img{
+    border: solid 4px black;
+    border-radius: 13px;
+    background-color: beige;
+}
+
+figcaption{
+    font-family: Comic Sans MS;
+    text-align: center;
+}
