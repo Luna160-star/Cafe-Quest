@@ -2,6 +2,6 @@
 function goToLoading() {
             setTimeout(() =>{
             window.location.href = "loading.html";
-        }, 2000);
+        }, 1000);
 }
 
