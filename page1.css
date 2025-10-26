@@ -31,3 +31,27 @@ body{
     cursor: ("cursorr.png") 0 0, auto;
 }
 
+.buttonalign{
+    
+
+}
+
+.button1{
+    padding-left: 400px;
+    padding-top: 300px;
+}
+
+.button2{
+    padding-left: 550px;
+}
+
+.button3{
+    padding-left: 400px;
+    padding-top: 425px;
+}
+
+.button4{
+    padding-left: 500px;
+    padding-top: 425px;
+
+}
