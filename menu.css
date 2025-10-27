@@ -4,7 +4,7 @@ body{
 
 .FOOD{
     align-items: center;
-    gap: 0px;
+    gap: 25px;
     vertical-align: middle;
     display: inline-flex;
 }
@@ -28,14 +28,29 @@ figcaption{
 
 .DRINKS{
     align-items: center;
-    gap: 0px;
+    gap: 17px;
     vertical-align: middle;
     display: inline-flex;
 }
 
 .CAKES{
     align-items: center;
-    gap: 0px;
+    gap: 17px;
+    vertical-align: center;
+    display: inline-flex;
+}
+
+figure{
+    margin: 0;
+}
+
+figure img{
+    display: block;
+}
+
+.other{
+    align-items: center;
+    gap: 17px;
     vertical-align: center;
     display: inline-flex;
 }
