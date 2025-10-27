@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.loading-bar{
+    width: 500px;
+    height: 3em;
+    position: relative;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+
+.loading-bar::before{
+    content: attr(data-label);
+    left: .5em;
+    top: .5em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    min-width: 2rem;
+    max-width: calc(100% - 1em);
+    padding: 1em;
+    boz-sizing: border-box;
+    width: calc(var(--width, 0) *1%);
+    bottom: .5em;
+}
+
+img{
+    display: flex;
+    align-items: center;
+}
