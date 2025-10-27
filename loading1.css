@@ -10,8 +10,9 @@ body{
     position: relative;
     justify-content: center;
     color: white;
-    border-radius: 15px;
+    border-radius: 1.5em;
     align-items: center;
+    background-color: brown;
     
 }
 
@@ -25,12 +26,27 @@ body{
     min-width: 2rem;
     max-width: calc(100% - 1em);
     padding: 1em;
-    boz-sizing: border-box;
+    box-sizing: border-box;
     width: calc(var(--width, 0) *1%);
     bottom: .5em;
+    background-color: orange;
 }
 
 img{
     display: flex;
     align-items: center;
+}
+
+.alignment1{
+    dispaly: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.alignment2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
