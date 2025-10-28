@@ -1,0 +1,36 @@
+html, body{
+    background-color: beige;
+}
+
+H1{
+
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+    font-size: 18px;
+    background-color: rgb(242, 113, 54);
+
+}
+
+button:hover{
+    transform: scale(1.2) rotate(-3deg);
+    background-color: rgba(152, 119, 84, 0.793);
+    cursor: url("cursorr.png") 0 0, auto;
+    
+}
+
+figcaption{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+}
+
+.section1 .section2{
+    align-items: center;
+    gap: 25px;
+    vertical-align: middle;
+    display: inline-flex;
+}
