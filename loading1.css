@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: beige;
 }
 
 .loading-bar{
@@ -23,14 +24,17 @@ body{
     position: absolute;
     display: flex;
     align-items: center;
+    width: calc(var(--width, 0) * 1%);
     min-width: 2rem;
+    border-radius: 1em;
     max-width: calc(100% - 1em);
     padding: 1em;
-    box-sizing: border-box;
-    width: calc(var(--width, 0) *1%);
     bottom: .5em;
     background-color: orange;
+    box-sizing: border-box;
+
 }
+
 
 img{
     display: flex;
@@ -38,10 +42,12 @@ img{
 }
 
 .alignment1{
-    dispaly: flex;
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding-top: 200px;
+
 }
 
 .alignment2{
@@ -49,4 +55,6 @@ img{
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    
 }
