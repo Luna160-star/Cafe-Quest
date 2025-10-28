@@ -5,6 +5,11 @@ body{
     background-color: beige;
 }
 
+html, body{
+    cursor: url('cursor.png'), auto;
+}
+
+
 .loading-bar{
     width: 500px;
     height: 3em;

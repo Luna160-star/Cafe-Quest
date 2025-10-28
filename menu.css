@@ -2,6 +2,11 @@ body{
     background-color: rgb(232, 131, 95);
 }
 
+html, body{
+    cursor: url('cursor.png'), auto;
+}
+
+
 .FOOD{
     align-items: center;
     gap: 25px;

@@ -1,6 +1,8 @@
 body{
     background-color: beige;
+    cursor: url('cursor.png'), auto;
 }
+
 
 
 
