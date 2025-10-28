@@ -13,3 +13,7 @@ h2{
 h3{
     font-family: "Ubuntu Condensed", sans-serif;
 }
+
+html, body{
+    cursor: url("cursorr.png") 0 0, auto;
+}

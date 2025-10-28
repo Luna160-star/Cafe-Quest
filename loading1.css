@@ -4,10 +4,10 @@ body{
     overflow: hidden;
     background-color: beige;
 }
-html, body{
-    cursor: url('cursor.png'), auto;
-}
 
+html, body{
+    cursor: url("cursorr.png") 0 0, auto;
+}
 
 .loading-bar{
     width: 500px;
