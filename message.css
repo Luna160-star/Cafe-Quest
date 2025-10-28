@@ -4,8 +4,6 @@ body{
 }
 
 
-
-
 #message{
     font-family: Comic Sans MS;
     font-size: 25px;
@@ -17,8 +15,4 @@ body{
     padding: 8px;
     background-color: rgb(234, 234, 151);
     justify-content: center;
-}
-
-button{
-    
 }
