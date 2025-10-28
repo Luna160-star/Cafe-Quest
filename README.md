@@ -17,9 +17,13 @@ A small cozy cafe (a lil fall themed), where you can interact and learn some awe
 <li> CSS (also mostly)
 <li> Javascript (lil)
 
+Note: I have no idea why this doesnt works on dark mode in my laptop, so it may not work there too, pls open it in light mode 😭. Thank you! 
+
 <hr>
 
 <b>Credits:
 <li>Google for receipes
 <li>Youtube for loading bar
 <li>Images, GIFs from Freepik, google (i do not own them)
+
+
