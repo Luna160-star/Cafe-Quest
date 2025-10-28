@@ -50,7 +50,7 @@ img{
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-top: 200px;
+   
 
 }
 
@@ -61,4 +61,11 @@ img{
     justify-content: center;
 
     
+}
+
+p{
+    text-align: center;
+    font-size: 90px;
+    font-family: "Covered By Your Grace", cursive;
+    padding: 0;
 }

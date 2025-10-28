@@ -1,8 +1,9 @@
 html, body{
-    background-color: beige;
+    background-color: rgb(228, 134, 75);
 }
 
 H1{
+    font-family: "Vast Shadow", serif;
 
 }
 
@@ -26,6 +27,7 @@ button:hover{
 figcaption{
     font-family: "Caveat", cursive;
     font-size: 25px;
+    color: white;
 }
 
 .section1 .section2{
@@ -33,4 +35,8 @@ figcaption{
     gap: 25px;
     vertical-align: middle;
     display: inline-flex;
+}
+
+img{
+    border: solid 2px black;
 }

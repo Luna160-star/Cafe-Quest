@@ -1,3 +1,15 @@
 body{
     background-color: rgb(253, 132, 132);
 }
+
+h1{
+    font-family: "Reenie Beanie", cursive;
+}
+
+h2{
+    font-family:  "Comic Relief", system-ui;
+}
+
+h3{
+    font-family: "Ubuntu Condensed", sans-serif;
+}
